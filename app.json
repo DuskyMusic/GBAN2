@@ -95,6 +95,6 @@
          "description": "Gban logs",
          "required": false,
          "value": "-1001773920431"
-      },
+      }
    }
 }
