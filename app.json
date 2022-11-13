@@ -32,20 +32,30 @@
          "description": "ok",
          "required": true,
          "value": ""
-      },   
+      },
+      "HEROKU_API_KEY": {
+         "description": "huh",
+         "required": true,
+         "value": ""
+      },    
       "STRING_SESSION": {
          "description": "huh",
          "required": false,
          "value": ""
       },      
-      "ENFORCERS": {
+      "RAW_ENFORCERS": {
          "description": "hmm",
          "required": true,
          "value": "5521853065"
       },
-      "RAW_SKYNET": {
+      "RAW_SIBYL": {
          "description": "lel",
          "value": "5521853065"
+      },
+      "HEROKU_APP_NAME": {
+         "description": "k",
+         "required": false,
+         "value": ""
       },
       "ENFORCERS": {
          "description": "Enforcers Duh",
