@@ -1,0 +1,89 @@
+{
+      "name": "Skynet_System",
+      "description": "Gbannn System",
+      "keywords": [
+         "Skynet",
+         "Skynet",
+         "Gban",
+         "|Enforcer",
+         "ok"
+      ],   
+   "repository": "https://github.com/DuskyMusic/GBAN2",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }     
+  ],      
+   "env": {
+      "API_HASH_KEY": {
+         "description": "ok",
+         "required": true,
+         "value": ""
+      },
+      "API_ID_KEY": {
+         "description": "ok",
+         "required": true,
+         "value": ""
+      },   
+      "STRING_SESSION": {
+         "description": "huh",
+         "required": false,
+         "value": ""
+      },      
+      "ENFORCERS": {
+         "description": "hmm",
+         "required": true,
+         "value": "5521853065"
+      },
+      "RAW_SKYNET": {
+         "description": "lel",
+         "value": "5521853065"
+      },
+      "ENFORCERS": {
+         "description": "Enforcers Duh",
+         "required": false,
+         "value": "5521853065"
+      },
+      "INSPECTORS": {
+         "description": "ok",
+         "required": false,
+         "value": "5521853065"
+      },      
+      "SKYNET": {
+         "description": "idk",
+         "required": false,
+         "value": "5521853065"
+      },
+      "Skynet_approved_logs": {
+         "description": "idk",
+         "required": false,
+         "value": "-1001773920431"
+      },
+      "Skynet_logs": {
+         "description": "idk",
+         "required": false,
+         "value": "-1001773920431"
+      },
+      "MONGO_DB_URL": {
+         "description": "db url",
+         "required": true,
+         "value": ""
+      }, 
+      "BOT_TOKEN": {
+         "description": "Bot Token",
+         "value": ""
+      },
+      "GBAN_MSG_LOGS": {
+         "description": "Gban logs",
+         "required": false,
+         "value": "-1001773920431"
+      }
+   },
